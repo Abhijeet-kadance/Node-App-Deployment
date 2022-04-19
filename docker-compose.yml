@@ -3,7 +3,6 @@ services:
   node-app:
     build: .
     ports:
-      - "3000:3000"
-    environment:
-      - PORT=3000
+      - "8000:8000"
+
       

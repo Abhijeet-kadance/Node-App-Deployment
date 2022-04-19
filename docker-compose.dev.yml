@@ -7,3 +7,5 @@ services:
     environment:
       - NODE_ENV=development
     command: npm start
+    # env_file:
+    #   - ./.env
