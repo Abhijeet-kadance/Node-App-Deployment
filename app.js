@@ -6,8 +6,12 @@ const port = process.env.PORT || 3000;
 
 
 app.get("/",(req,res)=>{
-    res.send("<h2>Hi There!!! </h2>")
+    res.send("<h2>Hi There </h2>")
 })
+
+// app.post("/insertData",(req,res)=>{
+//     const 
+// })
 
 app.listen(port,()=>{
     console.log(`listining at port ${port}`)
